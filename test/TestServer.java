@@ -3,7 +3,7 @@ import server.Server;
 
 import java.io.IOException;
 
-public class testServer {
+public class TestServer {
 
     @Test
     public void testRun() throws IOException {
@@ -12,5 +12,4 @@ public class testServer {
         server.setWebAppPath("C:/Users/J/IdeaProjects/WebServer/resources/webapp");
         server.start();
     }
-
 }
